@@ -4,6 +4,9 @@ Sending build context to Docker daemon 4.608 kB
 Sending build context to Docker daemon
 Step 0 : FROM ubuntu-debootstrap:trusty
 ---> 21530629f1e1
+
+[![GuardRails badge](https://badges.production.guardrails.io/moul/dockerfile-bug.svg)](https://www.guardrails.io)
+
 Step 1 : RUN ls -la /usr/bin/sudo || true
 ---> Running in 572d159ec72c
 ls: cannot access /usr/bin/sudo: No such file or directory
